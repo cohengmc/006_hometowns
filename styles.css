@@ -18,14 +18,14 @@ body {
 }
 
 #title-txt {
-    background-color: blue;
+    background-color: #87C5FE;
     padding: .1em .2em;
     margin-bottom: 0;
     border-radius: 8px;
 }
 
 #info-txt {
-    background-color: lightblue;
+    background-color: #135381;
     max-width: 16em;
     padding: .2em 0;
     border-radius: 8px;
@@ -33,7 +33,7 @@ body {
 }
 
 #activities {
-    background-color: wheat;
+    background-color: #EDE35F;
 
 }
 
@@ -61,4 +61,30 @@ body {
 
 .card-txt {
     margin: .5em 2em;
+}
+
+#guide-card {
+    margin: 3em auto;
+    display: flex;
+    background-color: #87C5FE;
+    max-width: 30em;
+    border-bottom: 8px solid #135381;
+}
+
+#guide-card img {
+    height: 16em;
+    width: 10em;
+    object-fit: cover;
+    margin: 1em;
+}
+
+#guide-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+}
+
+#guide-name {
+    font-weight: bold;
 }
